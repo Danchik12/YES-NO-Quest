@@ -31,6 +31,7 @@ function getAnswer(btn_value){
 		question.innerHTML=questions[i];
 		let img =document.getElementById("image");
 		img.src=href[i];
+		
 		if (i==answers.length){
 			alert("Игра окончена \n Всего вопросов "+answers.length+" \n Очков набрано "+score);
 		
