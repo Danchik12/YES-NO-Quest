@@ -21,16 +21,12 @@ img.src=href[i];
 
 function getAnswer(btn_value){
 	let answer=btn_value
-	
-	
-	
 	if (answer==answers[i]){
 		score++;
 		i++;
-		
-	}else{
+		}else{
 		i++;
-	}
+		}
 		let question=document.getElementById("question");
 		question.innerHTML=questions[i];
 		let img =document.getElementById("image");
